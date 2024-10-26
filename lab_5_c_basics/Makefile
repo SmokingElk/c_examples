@@ -11,6 +11,7 @@ all:
 	gcc ./ex_9_break_continue.c -o ./ex_9_break_continue.exe
 	gcc ./ex_10_procedures.c -o ./ex_10_procedures.exe
 	gcc ./ex_11_functions.c -o ./ex_11_functions.exe
+	gcc ./ex_12_constants.c -o ./ex_12_constants.exe
 
 clean:
 	rm -f *.exe

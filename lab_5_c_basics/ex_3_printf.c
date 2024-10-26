@@ -30,6 +30,5 @@ int main () {
 
     // 7. табуляция
     printf("\tthis text is tabulated\n");
-
     return 0;
 }

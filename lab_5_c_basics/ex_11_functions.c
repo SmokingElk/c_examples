@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 // функции - подпрограммы, для которых явно предполагается возврат значения
-// ReturnValue ProcedureName (Param1Type Param1Name, Param2Type Param2Name...) {
+// ReturnValue FunctionName (Param1Type Param1Name, Param2Type Param2Name...) {
 //  // тело
 // }
 
 // процедуры объявляются тут
 int factorial (int x) {
     if (x < 0) return -1;
-
+    
     int fact = 1;
     for (int i = 2; i < x; i++) fact *= i;
-    return fact;
+
+    // в функциях оператор return становится одноместным и ожидает возвращаемое значение
+    return fact; 
 }
 
 double calculator (double x, double y, char op) {
