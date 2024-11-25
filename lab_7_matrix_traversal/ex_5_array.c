@@ -53,6 +53,5 @@ int main () {
     int numbers2[3]; 
     
     // numbers2 = numbers1; - ошибка
-
     return 0;
 }

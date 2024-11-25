@@ -10,7 +10,6 @@ all:
 	gcc ./ex_8_2d_array.c -o ./ex_8_2d_array.exe
 	gcc ./ex_9_scanf.c -o ./ex_9_scanf.exe
 
-
 clean:
 	rm -f *.exe
 	rm -f *.o

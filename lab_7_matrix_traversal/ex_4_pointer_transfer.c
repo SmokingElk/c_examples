@@ -62,7 +62,8 @@ int main () {
     printf("pa: %p, pb: %p\n", pa, pb);
 
     int remainder;
-    int ratio = div(13, 3, &remainder);
+    int *premainder = &remainder;
+    int ratio = div(13, 3, premainder);
 
     printf("Ratio: %d, remainder: %d\n", ratio, remainder);
 
